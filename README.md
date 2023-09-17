@@ -1,4 +1,4 @@
-# skill-dev-documentation
+# wo-skill-dev-documentation
 ## Overview
 This repo contains the details of the skill building guidelines. Revisit this documentation for updates to the skill guidelines before starting any new skill development.
 
