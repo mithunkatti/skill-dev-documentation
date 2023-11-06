@@ -17,7 +17,7 @@ The following blueprint indicates the steps involved in building skills in watso
 Start with an end-to-end use case in mind and then follow this process:
 
 1. Familiarize yourself with the best practices for skill designing skills: [Skill design content guidelines](https://www.ibm.com/docs/en/watson-orchestrate?topic=files-skill-design-content-guidelines).
-2. Check whether the skill or skill flow you want to build is already available in [watsonx Orchestrate here](https://www.ibm.com/docs/en/watson-orchestrate?topic=built-in-apps).
+2. Check whether the skill or skill flow you want to build is already available in [watsonx Orchestrate](https://www.ibm.com/docs/en/watson-orchestrate?topic=built-in-apps).
 3. Build the skills and skill flows needed to achieve the goal of your use case. 
 
 
