@@ -2,10 +2,10 @@
 ## Overview
 Learn how to build skills for use in IBM watsonx Orchestrate. Every time you start to develop new skills, revisit this information for updates. 
 
-For style guidelines, such as information about naming and describing skills and examples of the help text to provide, refer to the [ Skill design content guidelines ]( https://www.ibm.com/docs/en/watson-orchestrate?topic=files-skill-design-content-guidelines ).
+For style guidelines, such as information about naming and describing skills and examples of the help text to provide, refer to the [Skill design content guidelines](https://www.ibm.com/docs/en/watson-orchestrate?topic=files-skill-design-content-guidelines).
 
 ## Getting started 
-To get started, understand the concepts by reading [Apps and skills ](https://www.ibm.com/docs/en/watson-orchestrate?topic=apps-skills).
+To get started, understand the concepts by reading [Apps and skills](https://www.ibm.com/docs/en/watson-orchestrate?topic=apps-skills).
 
 ### Skill flows
 Skills are often more valuable when combined with other skills. You can create a linear sequence of skills by using a skill flow. Structure your skill flow to use two or more skills to complete a task. These skills can be from different applications. Using a skill flow, you can combine multiple functional calls to carry out a single workflow.
@@ -16,15 +16,14 @@ The following blueprint indicates the steps involved in building skills in watso
 
 Start with an end-to-end use case in mind and then follow this process:
 
-1. Familiarize yourself with the best practices for skill designing skills: [ Skill design content guidelines ]( https://www.ibm.com/docs/en/watson-orchestrate?topic=files-skill-design-content-guidelines ).
-2. Check whether the skill or skill flow you want to build is already available in [watsonx Orchestrate here]( https://www.ibm.com/docs/en/watson-orchestrate?topic=built-in-apps).
+1. Familiarize yourself with the best practices for skill designing skills: [Skill design content guidelines](https://www.ibm.com/docs/en/watson-orchestrate?topic=files-skill-design-content-guidelines).
+2. Check whether the skill or skill flow you want to build is already available in [watsonx Orchestrate here](https://www.ibm.com/docs/en/watson-orchestrate?topic=built-in-apps).
 3. Build the skills and skill flows needed to achieve the goal of your use case. 
 
 
 ## Developing skills
 
-Create skills from [OpenAPI files]([https://www.ibm.com/docs/en/watson-orchestrate?topic=files-creating-skills-from-openapi](https://www.ibm.com/docs/en/watson-orchestrate?topic=adding-skills-from-files). If you don't have an OpenAPI file ready and want to build one from scratch, see [Adding skills from files
-](https://www.ibm.com/docs/en/watson-orchestrate?topic=adding-skills-from-files). Then, enhance the OpenAPI file into an exemplary watsonx Orchestrate [skill](https://www.ibm.com/docs/en/watson-orchestrate?topic=skills-enhancing-publishing).
+Create skills from [OpenAPI files]([https://www.ibm.com/docs/en/watson-orchestrate?topic=files-creating-skills-from-openapi](https://www.ibm.com/docs/en/watson-orchestrate?topic=adding-skills-from-files). If you don't have an OpenAPI file ready and want to build one from scratch, see [Adding skills from files](https://www.ibm.com/docs/en/watson-orchestrate?topic=adding-skills-from-files). Then, enhance the OpenAPI file into an exemplary watsonx Orchestrate [skill](https://www.ibm.com/docs/en/watson-orchestrate?topic=skills-enhancing-publishing).
 
 After a skill is enhanced and published, it is available for you to add to your skill set from the skill catalog by following these instructions: [Adding a skill from skill catalog](https://www.ibm.com/docs/en/SSAVQO/skills/skill_addremove.html#adding-a-skill-from-skill-catalog).
 
@@ -42,7 +41,7 @@ After sufficient testing, [export the skills](https://www.ibm.com/docs/en/watson
 
 ### Pushing the skills into Github repository
 
-Merge the skills (.json files) into your Github repository. Add a documentation guide for the users of this skill to use the skills efficiently.
+Merge the skills (.json files) into your Github repository.  In the Partner Github repository, add documentation for the users of this skill to use the skills efficiently.
 
 <img width="468" alt="image" src="https://github.com/mithunkatti/skill-dev-documentation/assets/55537587/69e45726-3738-49cd-a9d3-692d64dbbdf7">
 
@@ -55,7 +54,7 @@ Add your test evidence, such as a screen capture of the test:
 <img width="468" alt="image" src="https://github.com/mithunkatti/skill-dev-documentation/assets/55537587/5be773ac-07e7-4a98-a8a1-dcfe22e29f65">
 
 
-### Publishing the skill to be part of Watson Orchestrate Global skills catalog:
+### Publishing the skill to be part of Watson Orchestrate Global skills catalog
 In the README.md file, indicate whether you want your skills to be published by the watsonx Orchestrate team to be part of the out-of-the-box skill catalog. When they are included in the skill catalog in the subsequent release, you can test the skills on your production instance of watsonx Orchestrate.
 
 
@@ -156,12 +155,12 @@ The ListRecording API is now created:
 
 
 
-14.	Download the connector.
+14.	Download the app, which is call a "connector" in the Connector Development Kit.
 
  
 
 
-15.	Decrypt the .car file to extract the raw OpenAPI needed for the watsonx Orchestrate skill by using the command IBM provided.
+15.	Decrypt the .car file to extract the raw OpenAPI needed for the watsonx Orchestrate skill by using the command you received from IBM. 
 
 Now you can continue developing the skill.
 
