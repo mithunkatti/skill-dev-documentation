@@ -41,7 +41,7 @@ After sufficient testing, [export the skills](https://www.ibm.com/docs/en/watson
 
 ### Pushing the skills into Github repository
 
-Merge the skills (.json files) into your Github repository.  In the Partner Github repository, add documentation for the users of this skill to use the skills efficiently.
+Merge the skills (.json files) into your Github repository. In the Partner Github repository, add documentation for the users of this skill to use the skills efficiently.
 
 <img width="468" alt="image" src="https://github.com/mithunkatti/skill-dev-documentation/assets/55537587/69e45726-3738-49cd-a9d3-692d64dbbdf7">
 
@@ -54,7 +54,7 @@ Add your test evidence, such as a screen capture of the test:
 <img width="468" alt="image" src="https://github.com/mithunkatti/skill-dev-documentation/assets/55537587/5be773ac-07e7-4a98-a8a1-dcfe22e29f65">
 
 
-### Publishing the skill to be part of Watson Orchestrate Global skills catalog
+### Publishing the skill to be part of watsonx Orchestrate Global skills catalog
 In the README.md file, indicate whether you want your skills to be published by the watsonx Orchestrate team to be part of the out-of-the-box skill catalog. When they are included in the skill catalog in the subsequent release, you can test the skills on your production instance of watsonx Orchestrate.
 
 
